@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { v4 } from "uuid";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquarePlus } from "@fortawesome/free-solid-svg-icons";
-import "../List/list.css";
+import "../../../public/css/list.css";
 
 const Form = (props) => {
   const [value, setValue] = useState("");
